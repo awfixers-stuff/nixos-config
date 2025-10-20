@@ -28,17 +28,17 @@
     shell = pkgs.zsh;
   };
 
-  systemd.user.services.myPnpmDlxService = {
-    description = "My Continuous pnpm dlx Runner (User Level)";
-    wantedBy = [ "default.target" ];
-    after = [ "network.target" ];
-
-    serviceConfig = {
-      ExecStart = "${pkgs.pnpm}/bin/pnpm dlx arrpc";
-      Restart = "always";
-      RestartSec = "10s";
-    };
-  };
+#  systemd.user.services.myPnpmDlxService = {
+#    description = "My Continuous pnpm dlx Runner (User Level)";
+#    wantedBy = [ "default.target" ];
+#    after = [ "network.target" ];
+#
+#    serviceConfig = {
+#      ExecStart = "${pkgs.pnpm}/bin/pnpm dlx arrpc";
+#      Restart = "always";
+#      RestartSec = "10s";
+#    };
+#  };
 
   home-manager.users.root = {
     programs.helix = config.home-manager.users.awfixer.programs.helix;
