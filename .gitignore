@@ -1,0 +1,8 @@
+.direnv/
+result
+.env
+flake.lock
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+.env*
