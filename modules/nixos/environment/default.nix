@@ -4,6 +4,7 @@
     systemPackages = with pkgs; [
       gh
       glab
+      git
       ghunt
       git-repo
       reposurgeon

@@ -5,5 +5,6 @@
     ./base.nix
     ./cli.nix
     ./nix.nix
+    ./programming.nix
   ];
 }

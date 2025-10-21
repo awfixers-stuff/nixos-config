@@ -52,8 +52,8 @@
       inputs.nix-flatpak.homeManagerModules.nix-flatpak
       ../../modules/home-manager
       ./gc.nix
-      #./packages
-      ./packages.nix
+      ./packages
+      #./packages.nix
     ];
     home = {
       homeDirectory = "/home/${home.username}";

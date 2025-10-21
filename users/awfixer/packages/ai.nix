@@ -7,6 +7,7 @@ ai = with pkgs; [
   gemini-cli
   codex
   claude-code
+  open-webui
 ];
 
 

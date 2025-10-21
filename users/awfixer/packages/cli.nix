@@ -7,10 +7,7 @@ cli = with pkgs; [
   eza
   fd
   ffmpeg
-  gem
-  gh
-  git
-  glab
+  openssl
   gnumake
   jc
   jq
@@ -20,13 +17,10 @@ cli = with pkgs; [
   openssl
   ouch
   pkg-config
-  pnpm
-  python314
   ripgrep
   sd
   tree
   unzip
-  uv
   watchexec
   wget
   wl-clipboard

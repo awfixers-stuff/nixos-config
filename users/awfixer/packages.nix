@@ -7,7 +7,6 @@ base = with pkgs; [
   standardnotes
   claude-code
   gemini-cli
-  vercel-pkg
   qbittorrent-enhanced
   clapper
   clapper-enhancers
